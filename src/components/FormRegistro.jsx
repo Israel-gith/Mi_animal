@@ -16,7 +16,7 @@ function FormRegistro() {
   const handleSubmit = (e) => {
     //Para que no mande el formulario, sino que haga lo que yo le diga
     e.preventDefault();
-  
+    console.log(data)
   }
 
   const handleChangeName = (e) =>{
@@ -67,7 +67,7 @@ function FormRegistro() {
               />
             </Grid> 
             <Grid size={12}>
-              <Button type='file' variant='outlined' fullWidth>Registrar</Button>
+              <Button type='submit' variant='outlined' fullWidth>Registrar</Button>
             </Grid>    
           </Grid>
         </Box>
